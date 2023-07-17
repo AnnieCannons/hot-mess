@@ -10,26 +10,26 @@ body {
 }
 
 nav {
-  background-color: #054d80;
+  background-color: #041a2a;
   margin: 0;
-  height: 80px;
+  height: 30px;
   display: flex;
   align-items: center;
 }
 
 nav ul {
   display: flex;
-  width: 100%;
+  width: 50%;
   justify-content: flex-end;
-  align-items: center;
-  margin-right: 2em;
+  align-items: left;
+  margin-right: 5em;
 }
 
 nav ul li {
   margin-right: 4em;
   list-style: none;
   text-transform: uppercase;
-  color: whitesmoke;
+  color: rgb(84, 3, 3);
   font-weight: bolder;
 }
 nav img {
@@ -92,70 +92,76 @@ button {
 }
 
 .about-img-wrapper img {
-  width: 75%;
-  border-radius: 5px;
+  width: 45%;
+  border-radius: 25px;
 }
 
 .about-img-wrapper {
-  width: 50%;
+  width: 90%;
 }
 
 .about-wrapper {
   display: flex;
-  padding: 8em 4em;
-  width: 80%;
-  margin: 0 auto;
+  padding: 0em 0em;
+  width: 50%;
+  margin: 0 left;
 }
 
 .gallery-section img {
   width: 300px;
-  border-radius: 5px;
-  max-height: 200px;
+  border-radius: 2px;
+  max-height: 50px;
   margin: 0.5rem;
+
+  border-width: 100px;
+  border-color: #054d80;
+  border-style: dashed;
+
+
 }
 
 .images-wrapper {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 2em 4em;
-  width: 80%;
-  margin: 1.5em auto;
+  justify-content: left;
+  padding: 0em 8em;
+  width: 50%;
+  margin: 1 auto;
 }
 
 .gallery-text-wrapper {
-  text-align: center;
-  margin-top: 5em;
+  text-align: rigth;
+  margin-top: 0em;
 }
 
 .section-header {
   font-size: 2em;
   text-transform: uppercase;
-  text-align: center;
-  padding-top: 1em;
+  text-align: right;
+  padding-top: 10em;
   margin-top: 0px;
   font-weight: bolder;
 }
 
 .awards-section {
-  background-image: linear-gradient(to bottom right, aliceblue, lightpink);
-  height: 800px;
+  background-image: linear-gradient(to bottom right, rgb(18, 27, 35), rgb(99, 6, 20));
+  height: 400px;
 }
 
 .awards-section-text {
-  text-align: center;
+  text-align: right;
 }
 
 .flex-wrapper {
   display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
+  justify-content: 0;
+  width: 200%;
+  margin: 50;
   padding: 2em 4em;
 }
 
 .awards-section div {
-  width: 80%;
+  width: 40%;
 }
 
 .right-content-box img {
@@ -168,11 +174,11 @@ button {
 }
 
 .left-content-box {
-  background-color: #e9f8ff;
+  background-color: #9c5d0a;
   font-size: 1em;
   padding: 2em;
-  border-radius: 10px;
-  position: relative;
+  border-radius: 3px;
+  position: right;
   left: 100px;
 }
 
@@ -197,13 +203,13 @@ button {
 }
 .steps-card {
   width: 150px;
-  text-align: center;
-  background-color: #f1f1f8;
+  text-align: left;
+  background-color: #05054b;
   padding: 2em;
-  border-radius: 10px;
+  border-radius: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 
 .steps-card h1 {
@@ -213,19 +219,19 @@ button {
 .steps-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 80%;
-  margin: 5em auto;
+  width: 4%;
+  margin: 5em;
   flex-wrap: wrap;
 }
 
 /* CERTIFICATION PROCESS */
 .certification-process-wrapper {
-  width: 30%;
-  margin: 10em auto;
-  background-color: #aec7fe;
-  padding: 5em;
-  opacity: 0.8;
-  border-radius: 10px;
+  width: 80%;
+  margin: 10em;
+  background-color: #09193a;
+  padding: em;
+  opacity: 0.5;
+  border-radius: 1px;
 }
 
 .certification-process-wrapper li {
@@ -239,12 +245,12 @@ button {
 
 /* FOOTER */
 .footer-section {
-  background-color: #f1f1f8;
-  padding: 2em;
+  background-color: #030323;
+  padding: 100em;
 }
 
 .buttons-wrapper {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: left;
 }
