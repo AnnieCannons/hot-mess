@@ -191,7 +191,7 @@ a {
 #box-hero {
 background-image: radial-gradient(red, green, red, blue, red, green);
 border-radius: 20px;
-margin-bottom: 30px;
+margin-bottom: 20px;
 box-shadow: 0 0 0 2px white, 0 0 0 6px black;
 border: dotted 12px greenyellow;
 }
@@ -199,54 +199,91 @@ border: dotted 12px greenyellow;
 #wrap-hero {
 background-image: linear-gradient(to left, yellow, pink, yellow, orange, yellow, orange, yellow, pink);
 border-radius: 50px;
-margin-top: 20px;
-margin-bottom: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
 border: solid 6px brown;
 }
 
 #text-hero {
-  background-image: linear-gradient(to right top, black, grey);
-  border-radius: 10px;
+  background-image: linear-gradient(to right top, white, rgb(240, 240, 240), rgb(209, 209, 209));
+  border-radius: 100px;
   color: white;
-  padding: 100px;
+  border: red 10px dotted;
+  padding: 40px;
   margin-right: 55px;
+}
 
+#hero-h1 {
+  border: solid 70px orange;
+  border-radius: 100%;
+  text-transform: uppercase;
+  font-size: 2.5vh;
+  background-image: linear-gradient(to left, yellow, blue, yellow);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding: 30px;
+  text-align: center;
 }
 
 #hero-p {
-
+border: solid 10px lime;
+text-transform: uppercase;
+font-size: 2vh;
+background-image: linear-gradient(to left, violet, indigo, green, blue, orange, red);
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+color: transparent;
+padding: 10px;
 }
 
 #hero-button {
-
+border: red 10px solid;
+padding: 10px 1px 10px 1px;
 }
 
 #wrap-form {
-
+background-image: repeating-radial-gradient( red, green, red, black, red, blue, red, yellow, black, gray, red, blue);
+border-radius: 100%;
+padding: 100px;
+height: 300px;
+width: 500px;;
 }
 
 #form-h1 {
-
+text-align: center;
+color: yellow;
+box-shadow: 0 0 0 10px white, 0 0 0 20px lime;
+border-radius: 50%;
+padding: 20px 0px 20px 0px;
+margin-bottom: 30px;
 }
 
 #form-content {
-
+  text-align: center;
+  color: yellow;
+  box-shadow: 0 0 0 10px white, 0 0 0 20px lime;
+  border-radius: 50%;
+  padding: 30px 30px 20px 30px;
+  margin-top: 50px;
 }
 
 #first-name {
-
+border: solid 9px blue;
 }
 
 #last-name {
-
+  border: solid 4px black;
 }
 
 #email {
-
+  border: solid 4px red;
 }
 
 #budget-range {
-
+  border: solid 10px orange;
 }
 
 #box-about {
