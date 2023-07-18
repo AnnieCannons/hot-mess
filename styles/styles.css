@@ -6,13 +6,13 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  color: darkslategray;
+  color: yellow;
 }
 
 nav {
-  background-color: #054d80;
-  margin: 0;
-  height: 80px;
+  background-color: #de0d68;
+  margin: 04;
+  height: 10px;
   display: flex;
   align-items: center;
 }
@@ -22,15 +22,15 @@ nav ul {
   width: 100%;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 2em;
+  margin-right: 5em;
 }
 
 nav ul li {
-  margin-right: 4em;
+  margin-right: 8em;
   list-style: none;
   text-transform: uppercase;
-  color: whitesmoke;
-  font-weight: bolder;
+  color: rgb(20, 110, 199);
+  font-weight: bolder;border-right: srtip rebeccapurple;
 }
 nav img {
   width: 50px;
@@ -125,7 +125,15 @@ button {
 
 .gallery-text-wrapper {
   text-align: center;
-  margin-top: 5em;
+  margin-top: 10em;
+  border-right:80px  solid  #de0d68;
+  border-top: 40px solid  palevioletred;
+  border-left: 80px solid #de0d68;
+  border-bottom:40px solid palevioletred;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:aquamarine;color: yellowgreen;
+  
+
 }
 
 .section-header {
