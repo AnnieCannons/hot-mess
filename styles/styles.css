@@ -5,13 +5,13 @@
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   color: yellow;
 }
 
 nav {
   background-color: #de0d68;
-  margin: 04;
+  margin: 04pc;
   height: 10px;
   display: flex;
   align-items: center;
@@ -19,10 +19,10 @@ nav {
 
 nav ul {
   display: flex;
-  width: 100%;
+  width: 200%;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 5em;
+  margin-right: 15em;
 }
 
 nav ul li {
@@ -30,15 +30,16 @@ nav ul li {
   list-style: none;
   text-transform: uppercase;
   color: rgb(20, 110, 199);
-  font-weight: bolder;border-right: srtip rebeccapurple;
+  font-weight: bolder;border-right: ridge rebeccapurple;
 }
 nav img {
   width: 50px;
-  margin-left: 2em;
-  border-radius: 100%;
+  margin-left: 18
+  em;
+  border-radius: 100%;background-color: #00ff7b;
 }
 a {
-  color: inherit;
+  color: red inherit;
   text-decoration: none;
 }
 
@@ -48,12 +49,14 @@ a {
 }
 
 .headers-section {
-  text-align: center;
+  text-align: left ;font-family: fantasy;
 }
 
 .hero-section,
 .parent-child-section {
-  background-image: linear-gradient(to bottom right, aliceblue, #01ffff);
+  background-image: linear-gradient(to bottom right, rgba(21, 93, 157, 0.365), #00ff7b); 
+  font-size: x-small;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .about-section {
@@ -69,8 +72,8 @@ a {
 }
 
 .hero-header {
-  padding-top: 2em;
-  margin-top: 0px;
+  padding-top: 10em;
+  margin-top: 30px;
 }
 
 .text-wrapper {
@@ -78,16 +81,16 @@ a {
 }
 
 .form-wrapper {
-  padding: 2em;
-  background-color: white;
-  border-radius: 10px;
+  padding: 50em;
+  background-color: rgb(216, 35, 113);
+  border-radius: 10px;border-top: 30px  ridge red;
 }
 
 button {
   border: none;
   padding: 1em 2em;
   border-radius: 5px;
-  background-color: white;
+  background-color: rgb(221, 19, 19);
   text-transform: uppercase;
 }
 
@@ -109,9 +112,9 @@ button {
 
 .gallery-section img {
   width: 300px;
-  border-radius: 5px;
-  max-height: 200px;
-  margin: 0.5rem;
+  border-radius: 3px;
+  max-height: 500px;
+  margin-left: 20.5rem;
 }
 
 .images-wrapper {
@@ -137,12 +140,12 @@ button {
 }
 
 .section-header {
-  font-size: 2em;
+  font-size: 10em;
   text-transform: uppercase;
   text-align: center;
   padding-top: 1em;
   margin-top: 0px;
-  font-weight: bolder;
+  font-weight: bolder;border: 15px solid blue;
 }
 
 .awards-section {
