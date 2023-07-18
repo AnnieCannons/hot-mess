@@ -2,6 +2,10 @@
   Add border style rules that are at least 5 pixels and a color of your choice.
 
 */
+html {
+  background-image: repeating-radial-gradient(ellipse farthest-corner at top center, #CF1111 38%, #FFAA17 7%, #17FFFF 25%, #146AFF 34%, #E014FF 9%, #FF05AC 7%, #38D1FF 62%, #BD66FF 65%, #CF5777 86%);
+  margin: 10px;
+}
 
 body {
   margin: 0;
@@ -14,29 +18,79 @@ nav {
   margin: 0;
   height: 80px;
   display: flex;
-  align-items: center;
+  align-items: auto;
+}
+
+#box-nav {
+  margin: 20px;
+  border-radius: 50%;
+  border: solid 5px rgb(0, 0, 0);
+  background-image: linear-gradient(to top, white, black, gray, white, gray, black, white, black, gray, black, white);
+}
+
+#logo-nav {
+  height: 50px;
+  padding: 2px;
+  margin: 8px 10px 20px 10px;
+  border: 5px dotted white;
+  box-shadow: 0 0 0 2px white, 0 0 0 5px black;
+  border-radius: 100%;
+  background-image: linear-gradient(to left, green, pink, yellow, blue, purple);
+}
+
+#nav-home {
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0 0 0 2px greenyellow, 0 0 0 3px white, 0 0 0 5px black;
+  color: white;
+  font-family: mono;
+  background-image: radial-gradient(black, blue, black, green, black, green, blue);
+}
+
+#nav-about {
+  padding: 20px;
+  box-shadow: 0 0 0 2px greenyellow, 0 0 0 3px white, 0 0 0 5px black;
+  color: white;
+  background-image: radial-gradient(black, blue, black, green, black, green, blue);
+}
+
+#nav-contact {
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0 0 0 2px greenyellow, 0 0 0 3px white, 0 0 0 5px black;
+  color: white;
+  font-family: mono;
+  background-image: radial-gradient(black, blue, black, green, black, green, blue);
+}
+
+#nav-list {
+  border-radius: 50px;
+  border: 5px solid white;
+  background-image: linear-gradient(to left, green, blue, yellow, green, blue, yellow, green, blue, yellow);
 }
 
 nav ul {
   display: flex;
   width: 100%;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  margin-right: 2em;
+  margin-right: 20px;
 }
 
 nav ul li {
-  margin-right: 4em;
+  margin-right: em;
   list-style: none;
   text-transform: uppercase;
   color: whitesmoke;
   font-weight: bolder;
 }
+
 nav img {
-  width: 50px;
+  width: 70px;
   margin-left: 2em;
   border-radius: 100%;
 }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -51,10 +105,349 @@ a {
   text-align: center;
 }
 
+.multicolor {
+  border: solid white;
+  background-image: linear-gradient(to bottom, white,  black, white, rgb(41, 255, 41), rgb(255, 0, 0), white);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding: 8px;
+  font-size: 1.5em;
+  ;
+
+}
+
+#box-headers {
+  box-shadow: 0px 0px 0px 6px rgb(38, 194, 255),
+    0 0 0 12px rgb(255, 255, 255);
+  margin: 10px 10px 10px 10px;
+  background-image: linear-gradient(green, yellow, orange, green, yellow, orange, green, yellow, orange, green, yellow, orange);
+  padding: 20px;
+  border-radius: 200px;
+  margin-bottom: 30px;
+}
+
+#box-h1 {
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, black, blue, purple, black, blue, purple, black, blue, purple, black);
+  box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
+  color: white;
+  margin: 30px 100px  30px 100px;
+}
+
+#box-h2 {
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, brown, blue, purple, brown, blue, purple, brown, blue, purple, brown);
+  box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
+  color: white;
+  border-radius: 100px;
+  margin: 30px 50px 30px 100px;
+}
+
+#box-h3 {
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, black, blue, purple, black, blue, purple, black, blue, purple, black);
+  box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
+  margin: 30px 100px 30px 50px;
+  color: white;
+}
+
+#box-h4 {
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, brown, blue, purple, brown, blue, purple, brown, blue, purple, brown);
+  box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
+  color: white;
+  box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
+  color: white;
+  margin: 30px 50px 30px 100px;
+  border-radius: 200px;
+}
+
+#box-h5 {
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, black, blue, purple, black, blue, purple, black, blue, purple, black);
+  box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
+  color: white;
+  margin: 30px 100px  30px 50px;
+}
+
+#box-h6 {
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, brown, blue, purple, brown, blue, purple, brown, blue, purple, brown);
+  box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
+  color: white;
+  box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
+  color: white;
+  border-radius: 100px;
+
+  margin: 30px 100px 30px 100px;
+}
+
 .hero-section,
 .parent-child-section {
   background-image: linear-gradient(to bottom right, aliceblue, #01ffff);
 }
+
+#box-hero {
+background-image: radial-gradient(red, green, red, blue, red, green);
+border-radius: 20px;
+margin-bottom: 20px;
+box-shadow: 0 0 0 2px white, 0 0 0 6px black;
+border: dotted 12px greenyellow;
+}
+
+#wrap-hero {
+background-image: linear-gradient(to left, yellow, pink, yellow, orange, yellow, orange, yellow, pink);
+border-radius: 50px;
+margin-top: 10px;
+margin-bottom: 10px;
+border: solid 6px brown;
+}
+
+#text-hero {
+  background-image: linear-gradient(to right top, white, rgb(240, 240, 240), rgb(209, 209, 209));
+  border-radius: 100px;
+  color: white;
+  border: red 10px dotted;
+  padding: 40px;
+  margin-right: 55px;
+}
+
+#hero-h1 {
+  border: solid 70px orange;
+  border-radius: 100%;
+  text-transform: uppercase;
+  font-size: 2.5vh;
+  background-image: linear-gradient(to left, yellow, blue, yellow);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding: 30px;
+  text-align: center;
+}
+
+#hero-p {
+border: solid 10px lime;
+text-transform: uppercase;
+font-size: 2vh;
+background-image: linear-gradient(to left, violet, indigo, green, blue, orange, red);
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+color: transparent;
+padding: 10px;
+}
+
+#hero-button {
+border: red 10px solid;
+padding: 10px 1px 10px 1px;
+}
+
+#wrap-form {
+background-image: repeating-radial-gradient( red, green, red, black, red, blue, red, yellow, black, gray, red, blue);
+border-radius: 100%;
+padding: 100px;
+height: 300px;
+width: 500px;;
+}
+
+#form-h1 {
+text-align: center;
+color: yellow;
+box-shadow: 0 0 0 10px white, 0 0 0 20px lime;
+border-radius: 50%;
+padding: 20px 0px 20px 0px;
+margin-bottom: 30px;
+}
+
+#form-content {
+  text-align: center;
+  color: yellow;
+  box-shadow: 0 0 0 10px white, 0 0 0 20px lime;
+  border-radius: 50%;
+  padding: 30px 30px 20px 30px;
+  margin-top: 50px;
+}
+
+#first-name {
+border: solid 9px blue;
+}
+
+#last-name {
+  border: solid 4px black;
+}
+
+#email {
+  border: solid 4px red;
+}
+
+#budget-range {
+  border: solid 10px orange;
+}
+
+#box-about {
+background-image: radial-gradient( white 65% ,lime 60%, black 70%);
+border: dotted 15px pink;
+border-radius: 50%;
+}
+
+#wrap-about {
+background-image: repeating-linear-gradient(45deg, white, lime, black, blue, white, lime, black, white, blue, lime, white, white, lime, black, blue, white, lime, black, white, lime, black, blue, white, lime, black, white);
+border: solid 5px black;
+border-radius: 50%;
+margin-top: 20px;
+margin-bottom: 20px;;
+}
+
+#img-about {
+border: dashed black 10px;
+border-radius: 50%;
+width: 400px;
+padding-top: 5px;
+}
+
+#img-box-about {
+border-radius: 50%;
+width: 400px;
+}
+
+#text-box-about {
+background-image:-webkit-repeating-linear-gradient(320deg,red, orange, pink, red, orange, pink,red, orange, pink,red, orange, pink);
+border-radius: 50%;
+margin-left: 20px;
+padding: 30px;
+}
+
+#about-h1 {
+border: dotted 2px black;
+background-image: repeating-linear-gradient(white, yellow, white, yellow, white, yellow);
+text-align: center;
+width: 200px;
+margin: auto;
+color: red
+}
+
+#about-p {
+  border: dotted 2px black;
+  background-image: repeating-linear-gradient(white, blue, white, blue, white, blue);
+  text-align: center;
+  padding: 20px;
+  border-radius: 50px;
+  color: red;
+}
+
+#box-gallery {
+
+}
+
+#text-box-gallery {
+
+}
+
+#gallery-h1 {
+
+}
+
+#gallery-p {
+
+}
+
+#gallery-img1 {
+
+}
+
+#gallery-img2 {
+
+}
+
+#gallery-img3 {}
+
+#gallery-img4 {}
+
+#gallery-img5 {}
+
+#gallery-img6 {}
+
+#gallery-img7 {}
+
+#gallery-img8 {}
+
+#gallery-img9 {}
+
+#gallery-footer {}
+
+#box-awards {}
+
+#awards-h1 {}
+
+#awards-p {}
+
+#wrap-awards {}
+
+#awards-leftbox {}
+
+#awards-rightbox {}
+
+#box-steps {}
+
+#steps-h1 {}
+
+#wrap-steps {}
+
+#step1 {}
+
+#step1-h1 {}
+
+#step1-p {}
+
+#step2 {}
+
+#step2-h2 {}
+
+#step2-p {}
+
+#step3 {}
+
+#step3-h3 {}
+
+#step3-p {}
+
+#step4 {}
+
+#step4-h4 {}
+
+#step4-p {}
+
+#box-certificate {}
+
+#wrap-certificate {}
+
+#certificate-h1 {}
+
+#certificate-list {}
+
+#list1 {}
+
+#list2 {}
+
+#list3 {}
+
+#list4 {}
+
+#box-footer {}
+
+#wrap-buttons {}
+
+#button-contact {}
+
+#button-learn {}
+
+#button-request {}
+
+#button-donate {}
+
 
 .about-section {
   background-image: linear-gradient(to bottom right, aliceblue, lightpink);
@@ -195,6 +588,7 @@ button {
   text-align: center;
   padding: 10em 5em;
 }
+
 .steps-card {
   width: 150px;
   text-align: center;
@@ -232,6 +626,7 @@ button {
   font-size: 1.2em;
   margin-top: 1em;
 }
+
 .certification-process-wrapper ol {
   font-size: 1.2em;
   margin-top: 2em;

@@ -10,131 +10,135 @@
     <title>Colin Jaffe</title>
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
-  <body>
-    <nav>
-      <img src="./assets/ac-logo.jpg" class="nav-logo" alt="AnnieCannons' Logo" />
-      <ul>
-	<li>HOME</li>
-	<li>ABOUT</li>
-	<li>CONTACT</li>
+  
+  <body id="body">
+    <nav id="box-nav">
+      <img id="logo-nav" src="./assets/ac-logo.jpg" class="nav-logo" alt="AnnieCannons' Logo" />
+      <ul id="nav-list">
+        <li id="nav-home">HOME</li>
+        <li id="nav-about">ABOUT</li>
+        <li id="nav-contact">CONTACT</li>
       </ul>
     </nav>
-    <section class="headers-section">
-      <h1><a href="https://www.github.com/abbreviatedman" target="_blank">This</a> is an H1.</h1>
-      <h2><a href="https://www.github.com/abbreviatedman">This</a> is an H2.</h2>
-      <h3><a href="https://www.github.com/abbreviatedman">This</a> is an H3.</h3>
-      <h4><a href="https://www.google.com">This is an H4.</a></h4>
-      <h5><a href="https://www.google.com">This is an H5.</a></h5>
-      <h6><a href="https://www.google.com">This is an H6.</a></h6>
+    <section class="headers-section" id="box-headers">
+      <h1 id="box-h1"><a class="multicolor" href="https://www.github.com/abbreviatedman" target="_blank">This</a> is an
+        H1.</h1>
+      <h2 id="box-h2"><a class="multicolor" href="https://www.github.com/abbreviatedman">This</a> is an H2.</h2>
+      <h3 id="box-h3"><a class="multicolor" href="https://www.github.com/abbreviatedman">This</a> is an H3.</h3>
+      <h4 id="box-h4"><a class="multicolor" href="https://www.google.com">This is an H4.</a></h4>
+      <h5 id="box-h5"><a class="multicolor" href="https://www.google.com">This is an H5.</a></h5>
+      <h6 id="box-h6"><a class="multicolor" href="https://www.google.com">This is an H6.</a></h6>
     </section>
-    <section class="hero-section">
-      <div class="hero-wrapper">
-        <div class="text-wrapper">
-	  <h1>Writing inclusive software for the next generation</h1>
-	  <p>Welcome to the world of HTML! Remember to have fun while learning, embrace the bugs, and make sure to break things.</p>
-	  <a href="https://www.anniecannons.org"><button>Learn More</button></a>
+    <section class="hero-section" id="box-hero">
+      <div class="hero-wrapper" id="wrap-hero">
+        <div class="text-wrapper" id="text-hero">
+          <h1 id="hero-h1">Writing inclusive software for the next generation</h1>
+          <p id="hero-p">Welcome to the world of HTML! Remember to have fun while learning, embrace the bugs, and make
+            sure to break things.</p>
+          <a id="hero-button" href="https://www.anniecannons.org"><button>Learn More</button></a>
         </div>
-	<div class="form-wrapper">
-	  <h1>Request a Quote</h1>
-	  <form>
-	    <input type="text" id="first-name" name="first-name" required placeholder="First Name">
-	    <input type="text" id="last-name" name="last-name" required placeholder="Last Name">
-	    <input type="text" id="email" name="email" required placeholder="Email">
-	    <select id="budget-range" name="budget-range" required>
-	      <option value="unselected" disabled required selected>Select Budget Range</option>
-	      <option value="personal">Personal Budget</option>
-	      <option value="professional">Professional Budget</option>
-	      <option value="organizational">Organizational Budget</option>
-	    </select>
-	    <input type="submit" value="Submit">
-	  </form>
-	</div>
+        <div class="form-wrapper" id="wrap-form">
+          <h1 id="form-h1">Request a Quote</h1>
+          <form id="form-content">
+            <input type="text" id="first-name" name="first-name" required placeholder="First Name">
+            <input type="text" id="last-name" name="last-name" required placeholder="Last Name">
+            <input type="text" id="email" name="email" required placeholder="Email">
+            <select id="budget-range" name="budget-range" required>
+              <option value="unselected" disabled required selected>Select Budget Range</option>
+              <option value="personal">Personal Budget</option>
+              <option value="professional">Professional Budget</option>
+              <option value="organizational">Organizational Budget</option>
+            </select>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
       </div>
     </section>
-    <section class="about-section">
+    <section class="about-section" id="box-about">
       <!-- <h1 class="section-header">About Us</h1> -->
-      <div class="about-wrapper">
-        <div class="about-img-wrapper">
-          <img
+      <div class="about-wrapper" id="wrap-about">
+        <div class="about-img-wrapper" id="img-about">
+          <img id="img-box-about"
             src="./assets/software-graphic.png"
             alt="hero image"
           />
         </div>
-        <div class="about-text-wrapper">
-          <h1>About Our Products</h1>
+        <div class="about-text-wrapper"id="text-box-about">
+          <h1 id="about-h1">About Our Products</h1>
           <!-- add bulleted list, and numbered with top 5 reasons to hire us, etc -->
-          <p>
+          <p id="about-p">
             We make the best software around. We are also really fun to work
             with!
           </p>
         </div>
       </div>
     </section>
-    <section class="gallery-section">
-      <div class="gallery-text-wrapper">
-	<h1>Gallery</h1>
-	<p>These are the most beautiful photos in the world, all made possible by our amazing engineers.</p>
-	<img src="./assets/gallery1.jpg" alt="Boat parked at a lake." />
-	<img src="./assets/gallery2.jpg" alt="Clouds around mountain peaks." />
-	<img src="./assets/gallery3.jpg" alt="Boats in a harbor." />
-	<img src="./assets/gallery4.jpg" alt="Sunset over a lake." />
-	<img src="./assets/gallery5.jpg" alt="An aerial view of a bright blue harbor." />
-	<img src="./assets/gallery6.jpg" alt="A sandy beach with hills in the background." />
-	<img src="./assets/gallery7.jpg" alt="Mountains." />
-	<img src="./assets/gallery8.jpg" alt="A coast." />
-	<img src="./assets/gallery9.jpg" alt="A harbor with an island.." />
+    <section class="gallery-section" id="box-gallery">
+      <div class="gallery-text-wrapper"id="text-box-gallery">
+	<h1 id="gallery-h1">Gallery</h1>
+	<p id="gallery-p">These are the most beautiful photos in the world, all made possible by our amazing engineers.</p>
+	<img id="gallery-img1"src="./assets/gallery1.jpg" alt="Boat parked at a lake." />
+	<img id="gallery-img2"src="./assets/gallery2.jpg" alt="Clouds around mountain peaks." />
+	<img id="gallery-img3"src="./assets/gallery3.jpg" alt="Boats in a harbor." />
+	<img id="gallery-img4"src="./assets/gallery4.jpg" alt="Sunset over a lake." />
+	<img id="gallery-img5"src="./assets/gallery5.jpg" alt="An aerial view of a bright blue harbor." />
+	<img id="gallery-img6"src="./assets/gallery6.jpg" alt="A sandy beach with hills in the background." />
+	<img id="gallery-img7"src="./assets/gallery7.jpg" alt="Mountains." />
+	<img id="gallery-img8"src="./assets/gallery8.jpg" alt="A coast." />
+	<img id="gallery-img9"src="./assets/gallery9.jpg" alt="A harbor with an island.." />
       </div>
-      <div class="images-wrapper">
+      <div class="images-wrapper" id="gallery-footer">
 
       </div>
     </section>
-    <section class="awards-section">
-      <h1 class="section-header">Awards</h1>
-      <p class="awards-section-text">We have won many awards for our software.</p>
-      <div class="flex-wrapper">
-        <div class="left-content-box content-box">
+    <section class="awards-section" id="box-awards">
+      <h1 id="awards-h1" class="section-header">Awards</h1>
+      <p class="awards-section-text" id="awards-p">We have won many awards for our software.</p>
+      <div class="flex-wrapper" id="wrap-awards">
+        <div class="left-content-box content-box" id="awards-leftbox">
         </div>
-        <div class="right-content-box content-box">
+        <div class="right-content-box content-box" id="awards-rightbox">
         </div>
       </div>
     </section>
-    <section class="divs parent-child-section section steps-section">
-      <h1 class="section-header">Our Steps</h1>
-      <div class="steps-wrapper">
-	<div class="steps-card">
-	  <h1>1</h1>
-	  <p>Give us a call! We will go over everything together and ensure you want to hire us.</p>
+    <section class="divs parent-child-section section steps-section" id="box-steps">
+      <h1 class="section-header" id="steps-h1">Our Steps</h1>
+      <div class="steps-wrapper" id="wrap-steps">
+	<div class="steps-card" id="step1">
+	  <h1 id="step1-h1">1</h1>
+	  <p id="step1-p">Give us a call! We will go over everything together and ensure you want to hire us.</p>
 	</div>
-	<div class="steps-card">
-	  <h1>2</h1>
-	  <p>Meet with our product team to determine your MVP, a product that will thrill your users.</p>
+	<div class="steps-card" id="step2">
+	  <h1 id="step2-h1">2</h1>
+	  <p id="step2-p">Meet with our product team to determine your MVP, a product that will thrill your users.</p>
 	</div>
-	<div class="steps-card">
-	  <h1>3</h1>
-	  <p>Our in-house designers will create something that is both beautiful, functional, and user-friendly.</p>
+	<div class="steps-card" id="step3">
+	  <h1 id="step3-h1">3</h1>
+	  <p id="step3-p">Our in-house designers will create something that is both beautiful, functional, and user-friendly.</p>
 	</div>
-	<div class="steps-card">
-	  <h1>4</h1>
-	  <p>Our team will build the app of your dreams. We will take our time and pay close attention to every detail.</p>
+	<div class="steps-card" id="step4">
+	  <h1 id="step4-h1">4</h1>
+	  <p id=step4-p>Our team will build the app of your dreams. We will take our time and pay close attention to every detail.</p>
 	</div>
       </div>
     </section>
-    <section class="section certification-section">
-      <div class="certification-process-wrapper">
-        <h1 class="section-header">Our Certification Process</h1>
-	<ol>
-	  <li>Internal testing</li>
-	  <li>Beta testing with a small group</li>
-	  <li>Make changes based on feedback</li>
-	  <li>Present the software to the world</li>
+    <section class="section certification-section" id="box-certificate">
+      <div class="certification-process-wrapper" id="wrap-certificate">
+        <h1 id="certificate-h1" class="section-header">Our Certification Process</h1>
+	<ol id="certificate-list">
+	  <li id="list1">Internal testing</li>
+	  <li id="list2">Beta testing with a small group</li>
+	  <li id="list3">Make changes based on feedback</li>
+	  <li id="list4">Present the software to the world</li>
       </div>
     </section>
-    <section class="section footer-section">
-      <div class="buttons-wrapper">
-	<button class="button">Contact</button>
-	<button class="button">Learn</button>
-	<button class="button">Request</button>
-	<button class="button">Donate</button>
+    <section class="section footer-section" id="box-footer">
+      <div class="buttons-wrapper"
+      id="wrap-buttons">
+	<button class="button" id="button-contact">Contact</button>
+	<button class="button" id="button-learn">Learn</button>
+	<button class="button" id="button-request">Request</button>
+	<button class="button" id="button-donate">Donate</button>
       </div>
     </section>
   </body>
