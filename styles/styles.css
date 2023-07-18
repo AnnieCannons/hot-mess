@@ -23,6 +23,7 @@ nav {
 
 #box-nav {
   margin: 20px;
+  border-radius: 50%;
   border: solid 5px rgb(0, 0, 0);
   background-image: linear-gradient(to top, white, black, gray, white, gray, black, white, black, gray, black, white);
 }
@@ -287,31 +288,54 @@ border: solid 9px blue;
 }
 
 #box-about {
-
+background-image: radial-gradient( white 65% ,lime 60%, black 70%);
+border: dotted 15px pink;
+border-radius: 50%;
 }
 
 #wrap-about {
-
+background-image: repeating-linear-gradient(45deg, white, lime, black, blue, white, lime, black, white, blue, lime, white, white, lime, black, blue, white, lime, black, white, lime, black, blue, white, lime, black, white);
+border: solid 5px black;
+border-radius: 50%;
+margin-top: 20px;
+margin-bottom: 20px;;
 }
 
 #img-about {
-
+border: dashed black 10px;
+border-radius: 50%;
+width: 400px;
+padding-top: 5px;
 }
 
 #img-box-about {
-
+border-radius: 50%;
+width: 400px;
 }
 
 #text-box-about {
-
+background-image:-webkit-repeating-linear-gradient(320deg,red, orange, pink, red, orange, pink,red, orange, pink,red, orange, pink);
+border-radius: 50%;
+margin-left: 20px;
+padding: 30px;
 }
 
 #about-h1 {
-
+border: dotted 2px black;
+background-image: repeating-linear-gradient(white, yellow, white, yellow, white, yellow);
+text-align: center;
+width: 200px;
+margin: auto;
+color: red
 }
 
 #about-p {
-
+  border: dotted 2px black;
+  background-image: repeating-linear-gradient(white, blue, white, blue, white, blue);
+  text-align: center;
+  padding: 20px;
+  border-radius: 50px;
+  color: red;
 }
 
 #box-gallery {
