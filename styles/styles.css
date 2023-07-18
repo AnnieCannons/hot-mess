@@ -3,8 +3,8 @@
 
 */
 html {
-  border: 10px solid black;
   background-image: repeating-radial-gradient(ellipse farthest-corner at top center, #CF1111 38%, #FFAA17 7%, #17FFFF 25%, #146AFF 34%, #E014FF 9%, #FF05AC 7%, #38D1FF 62%, #BD66FF 65%, #CF5777 86%);
+  margin: 10px;
 }
 
 body {
@@ -23,7 +23,6 @@ nav {
 
 #box-nav {
   margin: 20px;
-  border-radius: 50px;
   border: solid 5px rgb(0, 0, 0);
   background-image: linear-gradient(to top, white, black, gray, white, gray, black, white, black, gray, black, white);
 }
@@ -49,7 +48,6 @@ nav {
 
 #nav-about {
   padding: 20px;
-  border-radius: 50px;
   box-shadow: 0 0 0 2px greenyellow, 0 0 0 3px white, 0 0 0 5px black;
   color: white;
   background-image: radial-gradient(black, blue, black, green, black, green, blue);
@@ -79,7 +77,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 4em;
+  margin-right: em;
   list-style: none;
   text-transform: uppercase;
   color: whitesmoke;
@@ -108,7 +106,6 @@ a {
 
 .multicolor {
   border: solid white;
-  border-radius: 100%;
   background-image: linear-gradient(to bottom, white,  black, white, rgb(41, 255, 41), rgb(255, 0, 0), white);
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -125,9 +122,9 @@ a {
     0 0 0 12px rgb(255, 255, 255);
   margin: 10px 10px 10px 10px;
   background-image: linear-gradient(green, yellow, orange, green, yellow, orange, green, yellow, orange, green, yellow, orange);
-  padding: 10px;
-  margin: 30px;
+  padding: 20px;
   border-radius: 200px;
+  margin-bottom: 30px;
 }
 
 #box-h1 {
@@ -135,9 +132,7 @@ a {
   background-image: linear-gradient(90deg, black, blue, purple, black, blue, purple, black, blue, purple, black);
   box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
   color: white;
-  margin-left: 5em;
-  margin-right: 20em;
-  margin-bottom: 30px;;
+  margin: 30px 100px  30px 100px;
 }
 
 #box-h2 {
@@ -145,19 +140,15 @@ a {
   background-image: linear-gradient(90deg, brown, blue, purple, brown, blue, purple, brown, blue, purple, brown);
   box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
   color: white;
-  margin-left: 20em;
-  margin-right: 7em;
-  margin-bottom: 30px;
-  border-radius: 200px;
+  border-radius: 100px;
+  margin: 30px 50px 30px 100px;
 }
 
 #box-h3 {
   text-transform: uppercase;
   background-image: linear-gradient(90deg, black, blue, purple, black, blue, purple, black, blue, purple, black);
   box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
-  margin-left: 11em;
-  margin-right: 30em;
-  margin-bottom: 30px;
+  margin: 30px 100px 30px 50px;
   color: white;
 }
 
@@ -168,9 +159,7 @@ a {
   color: white;
   box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
   color: white;
-  margin-left: 35em;
-  margin-right: 15em;
-  margin-bottom: 40px;
+  margin: 30px 50px 30px 100px;
   border-radius: 200px;
 }
 
@@ -179,9 +168,7 @@ a {
   background-image: linear-gradient(90deg, black, blue, purple, black, blue, purple, black, blue, purple, black);
   box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
   color: white;
-  margin-left: 20em;
-  margin-right: 30em;
-  margin-bottom: 40px;
+  margin: 30px 100px  30px 50px;
 }
 
 #box-h6 {
@@ -191,16 +178,215 @@ a {
   color: white;
   box-shadow: 0 0 0 2px white, 0 0 0 3px white, 0 0 0 5px black;
   color: white;
-  margin-left: 40em;
-  margin-right: 28em;
-  margin-bottom: 25px;
-  border-radius: 200px;
+  border-radius: 100px;
+
+  margin: 30px 100px 30px 100px;
 }
 
 .hero-section,
 .parent-child-section {
   background-image: linear-gradient(to bottom right, aliceblue, #01ffff);
 }
+
+#box-hero {
+background-image: radial-gradient(red, green, red, blue, red, green);
+border-radius: 20px;
+margin-bottom: 30px;
+box-shadow: 0 0 0 2px white, 0 0 0 6px black;
+border: dotted 12px greenyellow;
+}
+
+#wrap-hero {
+background-image: linear-gradient(to left, yellow, pink, yellow, orange, yellow, orange, yellow, pink);
+border-radius: 50px;
+margin-top: 20px;
+margin-bottom: 20px;
+border: solid 6px brown;
+}
+
+#text-hero {
+  background-image: linear-gradient(to right top, black, grey);
+  border-radius: 10px;
+  color: white;
+  padding: 100px;
+  margin-right: 55px;
+
+}
+
+#hero-p {
+
+}
+
+#hero-button {
+
+}
+
+#wrap-form {
+
+}
+
+#form-h1 {
+
+}
+
+#form-content {
+
+}
+
+#first-name {
+
+}
+
+#last-name {
+
+}
+
+#email {
+
+}
+
+#budget-range {
+
+}
+
+#box-about {
+
+}
+
+#wrap-about {
+
+}
+
+#img-about {
+
+}
+
+#img-box-about {
+
+}
+
+#text-box-about {
+
+}
+
+#about-h1 {
+
+}
+
+#about-p {
+
+}
+
+#box-gallery {
+
+}
+
+#text-box-gallery {
+
+}
+
+#gallery-h1 {
+
+}
+
+#gallery-p {
+
+}
+
+#gallery-img1 {
+
+}
+
+#gallery-img2 {
+
+}
+
+#gallery-img3 {}
+
+#gallery-img4 {}
+
+#gallery-img5 {}
+
+#gallery-img6 {}
+
+#gallery-img7 {}
+
+#gallery-img8 {}
+
+#gallery-img9 {}
+
+#gallery-footer {}
+
+#box-awards {}
+
+#awards-h1 {}
+
+#awards-p {}
+
+#wrap-awards {}
+
+#awards-leftbox {}
+
+#awards-rightbox {}
+
+#box-steps {}
+
+#steps-h1 {}
+
+#wrap-steps {}
+
+#step1 {}
+
+#step1-h1 {}
+
+#step1-p {}
+
+#step2 {}
+
+#step2-h2 {}
+
+#step2-p {}
+
+#step3 {}
+
+#step3-h3 {}
+
+#step3-p {}
+
+#step4 {}
+
+#step4-h4 {}
+
+#step4-p {}
+
+#box-certificate {}
+
+#wrap-certificate {}
+
+#certificate-h1 {}
+
+#certificate-list {}
+
+#list1 {}
+
+#list2 {}
+
+#list3 {}
+
+#list4 {}
+
+#box-footer {}
+
+#wrap-buttons {}
+
+#button-contact {}
+
+#button-learn {}
+
+#button-request {}
+
+#button-donate {}
+
 
 .about-section {
   background-image: linear-gradient(to bottom right, aliceblue, lightpink);
