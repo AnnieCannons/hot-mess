@@ -2,22 +2,66 @@
   Add border style rules that are at least 5 pixels and a color of your choice.
 
 */
+.happy {
+	cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+  
+.sad { 
+	cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"), auto;
+}
 
+.circle {
+  width: 300px;
+  height: 300px;
+  background: #2762e9;
+  border-radius: 50%;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #677c2d;
+}
+.demo-shadow {
+  filter: drop-shadow(10px 10px 10px #be06c4);
+}
+h3 {
+  filter: drop-shadow(5px 5px 5px #6b4a31);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+  filter: drop-shadow(10px 10px 10px #380b39);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 77px;
+}
+.pics {
+  border-style: double;
+  border-color: chocolate;
+  border-width: 27px;
+}
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   color: darkslategray;
+  
 }
 
 nav {
-  background-color: #054d80;
+  background-color: #650404;
   margin: 0;
   height: 80px;
   display: flex;
   align-items: center;
+  border:#e66465;
+  border-style: dotted;
 }
 
 nav ul {
+  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
   display: flex;
   width: 100%;
   justify-content: flex-end;
@@ -33,7 +77,7 @@ nav ul li {
   font-weight: bolder;
 }
 nav img {
-  width: 50px;
+  width: 100px;
   margin-left: 2em;
   border-radius: 100%;
 }
@@ -43,21 +87,27 @@ a {
 }
 
 .section {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
   margin-top: 0px;
   padding: 3em;
 }
 
 .headers-section {
-  text-align: center;
+  text-align: left;
+  background: linear-gradient(#765, #080a20);
+  font-family: 'VT323', monospace;
+  font-weight: 200;
+  font-size: xx-large;
 }
 
 .hero-section,
 .parent-child-section {
-  background-image: linear-gradient(to bottom right, aliceblue, #01ffff);
+  background-image: linear-gradient(to bottom right, rgb(255, 240, 244), #01ffff);
 }
 
 .about-section {
-  background-image: linear-gradient(to bottom right, aliceblue, lightpink);
+  background-image: linear-gradient(to bottom right, rgb(214, 158, 15), lightpink);
+  border: 27px solid rgb(187, 0, 255);
 }
 
 .hero-wrapper {
@@ -75,9 +125,12 @@ a {
 
 .text-wrapper {
   width: 50%;
+  font-family: 'Fasthand', cursive;
+font-family: 'Lumanosimo', cursive;
 }
 
 .form-wrapper {
+  background: linear-gradient(#e66465, #9198e5);
   padding: 2em;
   background-color: white;
   border-radius: 10px;
@@ -112,6 +165,8 @@ button {
   border-radius: 5px;
   max-height: 200px;
   margin: 0.5rem;
+  background-color: #765;
+
 }
 
 .images-wrapper {
@@ -121,11 +176,12 @@ button {
   padding: 2em 4em;
   width: 80%;
   margin: 1.5em auto;
+  background: linear-gradient(#6465, #9198e5);
 }
 
 .gallery-text-wrapper {
-  text-align: center;
-  margin-top: 5em;
+  text-align: right;
+  margin-top: 13em;
 }
 
 .section-header {
@@ -138,7 +194,7 @@ button {
 }
 
 .awards-section {
-  background-image: linear-gradient(to bottom right, aliceblue, lightpink);
+  background-image: linear-gradient(to bottom right, rgb(27, 41, 54), rgb(114, 203, 12));
   height: 800px;
 }
 
@@ -198,7 +254,8 @@ button {
 .steps-card {
   width: 150px;
   text-align: center;
-  background-color: #f1f1f8;
+  
+  background: linear-gradient(#6465, #9198e5);
   padding: 2em;
   border-radius: 10px;
   display: flex;
@@ -208,6 +265,7 @@ button {
 
 .steps-card h1 {
   font-size: 1.5em;
+  
 }
 
 .steps-wrapper {
@@ -223,7 +281,8 @@ button {
   width: 30%;
   margin: 10em auto;
   background-color: #aec7fe;
-  padding: 5em;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  padding: 10em;
   opacity: 0.8;
   border-radius: 10px;
 }
@@ -233,17 +292,17 @@ button {
   margin-top: 1em;
 }
 .certification-process-wrapper ol {
-  font-size: 1.2em;
-  margin-top: 2em;
+  font-size: 3em;
+  margin-top: 8em;
 }
 
 /* FOOTER */
 .footer-section {
-  background-color: #f1f1f8;
-  padding: 2em;
+  padding: 9em;
 }
 
 .buttons-wrapper {
+  background-color: #ee0a5e;
   display: flex;
   justify-content: space-around;
   align-items: center;
