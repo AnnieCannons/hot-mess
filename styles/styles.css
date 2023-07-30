@@ -6,11 +6,11 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  color: darkslategray;
+  color: yellow;
 }
 
 nav {
-  background-color: #054d80;
+  background-color: brown;
   margin: 0;
   height: 80px;
   display: flex;
@@ -20,7 +20,7 @@ nav {
 nav ul {
   display: flex;
   width: 100%;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   margin-right: 2em;
 }
@@ -29,12 +29,12 @@ nav ul li {
   margin-right: 4em;
   list-style: none;
   text-transform: uppercase;
-  color: whitesmoke;
+  color: gray;
   font-weight: bolder;
 }
 nav img {
   width: 50px;
-  margin-left: 2em;
+  margin-left: 7em;
   border-radius: 100%;
 }
 a {
@@ -65,7 +65,7 @@ a {
   margin: 0 auto;
   display: flex;
   padding: 5em;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .hero-header {
@@ -79,7 +79,7 @@ a {
 
 .form-wrapper {
   padding: 2em;
-  background-color: white;
+  background-color: blue;
   border-radius: 10px;
 }
 
@@ -87,7 +87,7 @@ button {
   border: none;
   padding: 1em 2em;
   border-radius: 5px;
-  background-color: white;
+  background-color: pink;
   text-transform: uppercase;
 }
 
@@ -109,7 +109,7 @@ button {
 
 .gallery-section img {
   width: 300px;
-  border-radius: 5px;
+  border-radius: 25px;
   max-height: 200px;
   margin: 0.5rem;
 }
@@ -126,6 +126,7 @@ button {
 .gallery-text-wrapper {
   text-align: center;
   margin-top: 5em;
+  background-color: lavender;
 }
 
 .section-header {
@@ -135,6 +136,7 @@ button {
   padding-top: 1em;
   margin-top: 0px;
   font-weight: bolder;
+  background-color: red;
 }
 
 .awards-section {
@@ -165,10 +167,11 @@ button {
   top: 150px;
   right: 75px;
   border-radius: 10px;
+  background-color: greenyellow;
 }
 
 .left-content-box {
-  background-color: #e9f8ff;
+  background-color: orange;
   font-size: 1em;
   padding: 2em;
   border-radius: 10px;
@@ -178,7 +181,7 @@ button {
 
 .left-content-box li {
   margin-top: 1em;
-
+  background-color: brown;
 }
 
 .left-content-box p {
